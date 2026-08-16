@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "js-backend-graaljs",
+  "version": "0.1.0",
+  "name": "JS Backend GraalJS",
+  "description": "Shared GraalJS backend for JsMacros262 and BotMacro.",
+  "environment": "*",
+  "entrypoints": {
+    "jsbackend": [
+      "dev.jsbackend.graaljs.GraalJsBackend"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "*"
+  }
+}
